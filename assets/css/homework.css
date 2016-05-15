@@ -1,4 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+* {
+    box-sizing: border-box;
+}
+
 p,
 a,
 h1,
@@ -11,6 +15,8 @@ h6 {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     text-decoration: none;
     color: #1e1e1e;
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -35,11 +41,19 @@ header .slide-images {
     background-image: url("../images/bg-2.jpg");
 }
 
+header nav {
+    /*position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #F4C1C1;
+}
+
 header nav ul {
     /*background-color: #F4C1C1;*/
 }
 
 header nav li {
+    border: 1px solid #333;
     /*loat: left;*/
     background-color: #F4C1C1;
     padding: 0 20px;
@@ -52,6 +66,28 @@ header nav li {
     text-align: center;
 }
 
+header nav .subnav {
+    position: relative;
+}
+
+header nav .dropdown-list {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+}
+
+header nav .subnav:hover .dropdown-list {
+    display: block;
+}
+
+header nav .dropdown-list li {
+    display: block;
+    width: unset;
+    padding: 0;
+    background-color: #666;
+}
+
 header nav li a {}
 
 header nav li a:hover {
@@ -59,17 +95,77 @@ header nav li a:hover {
     color: #fff;
 }
 
-article:nth-of-type(odd) {
+section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+article {
+    border: 1px solid #666;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    width: 100%;
+}
+
+article>h2 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    font-weight: 700;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    /*height: 350px;*/
+    background-color: #F4C1C1;
+    overflow: auto;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 25px;
+    /*display: inline-block;*/
+    border-radius: 50%;
+}
+
+.box:nth-of-type(1) {
+    /*display: none;*/
+    position: fixed;
+    right: 30px;
+}
+
+.box:nth-of-type(2) {
+    /*display: none;*/
+    /* position: absolute;
+ left: 50px;
+*/
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #666;
+    background-color: #ccc;
+    overflow: auto;
+}
+
+.content {
+    width: 100%;
     background-color: red;
+    float: left;
 }
 
-article:nth-of-type(1) {
-    color: blue;
+aside {
+    border: 1px solid #666;
+    padding: 5px;
+    width: 33%;
+    background-color: yellow;
+    float: left;
 }
 
-article:not(:first-of-type) {
-    width: 22%;
-    display: inline-block;
+footer {
+    width: 100%;
+    background-color: #585858;
 }
 
 
