@@ -1,0 +1,33 @@
+.jumbotron {
+    /*background-image: url(../images/bg-3.jpg);*/
+    /*background-size: cover;*/
+    /*height: 400px;*/
+    color: #585858;
+    text-align: center;
+    /*padding-top: 200px;*/
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+nav {
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #FF4081;
+    padding-left: 30px;
+    background-color: black;
+    border: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+}
