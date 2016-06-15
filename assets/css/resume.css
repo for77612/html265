@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    letter-spacing: 1px;
+    font-family: 'Noto Sans TC', sans-serif, monospace, cursive;
+}
+
+body {
+    background-color: #FFECEC;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    padding: 80px 20px;
+    width: 80%;
+}
+
+.resume h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.resume h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.resume h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: orange;
+}
+
+.resume h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0 3px;
+}
+
+.resume small {
+    color: #666;
+}
+
+.resume ul {
+    list-style: outside none none;
+    padding: 0;
+    margin: 0;
+}
+
+.resume ul li.icon {
+    height: 26px;
+    line-height: 26px;
+}
+
+.resume ul .material-icons {
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+
+.resume .caption {
+    text-align: center;
+}
+
+.resume .thumbnail.avatar {
+    border: none;
+    text-align: center;
+    position: relative;
+    box-shadow: none;
+    background-color: unset;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.resume .avatar img {
+    border-radius: 50%;
+    bottom: 10px;
+    margin-left: 25%;
+    position: absolute;
+    width: 160px;
+}
+
+.resume .education .timer {
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.resume .education .timerObj {
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding-bottom: 5px;
+}
