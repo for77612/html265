@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    letter-spacing: 1px;
+    font-family: 'Noto Sans TC', sans-serif, monospace, cursive;
+}
+
+ul {
+    list-style: outside none none;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    margn: 0;
+}
+
+.jumbotron {
+    background-image: url("../images/bg-3.jpg");
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 170px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+}
+
+
+/*.jumbotron {
+    padding: 3px;
+    -webkit-border-image: url("../images/border.png") 30 round;
+    -o-border-image: url("../images/border.png") 30 round;
+    border-image: url("../images/border.png") 30 round;
+    border-bottom: 10px solid transparent;
+}
+*/
+
+.subjectBox .glyphicon {
+    font-size: 54px;
+}
+
+footer {
+    background-color: #333;
+    color: #666;
+    padding: 20px 0;
+}
+
+.connectIcons img {}

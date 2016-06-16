@@ -16,11 +16,10 @@ body {
     background-color: #FFECEC;
 }
 
-.container {
+.resume {
     background-color: white;
     border-radius: 5px;
-    margin-top: 120px;
-    margin-bottom: 50px;
+    margin: 120px auto 50px;
     padding: 80px 20px;
     width: 80%;
 }
