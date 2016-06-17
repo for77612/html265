@@ -1,117 +1,130 @@
-
 .wrapper {
     margin: 0 auto;
     width: 350px;
 }
-.iphone{
-  width: 334px;
-  height: 685px;
-  border: 1px solid #A9A6A6;
-  border-radius: 45px;
-  box-shadow: 0px 0px 3px 5px rgb(162, 162, 162) inset;
-  float: left;
-  margin-top: 6px;
-  background: linear-gradient(white,#EBEDEC);
-  position: relative;
-}
-.container{
-background-color: #000;
-  width: 300px;
-  height: 535px;
-  margin: 0 auto;
-  margin-top: 25px;
-  border-radius: 5px;
-  border: 3px solid #000;
-}
-.camera{
-	  width: 6px;
-  height: 6px;
-  background-color: black;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom:8px;
-}
-.subctrl{
-	height: 15px;
-  width: 110px;
-  margin: 0 auto;
-}
-.light{
-	width: 12px;
-  height: 12px;
-  background-color: black;
-  border-radius: 50%;
-  display: inline-block;
-}
-.sound{
-	width: 45px;
-  height: 3px;
-  background-color: black;
-  border-radius: 15px;
-  display: inline-block;
-  margin: 4px 17px;
-}
 
 
-.btnbox > div{
-  width: 2px;
-  background-color: #BBB6B6;
-  border: 1px solid #868585;
-  border-width: 2px 0px;
-  position: absolute;
+.iphone {
+    width: 334px;
+    height: 685px;
+    border: 1px solid #A9A6A6;
+    border-radius: 45px;
+    box-shadow: 0px 0px 3px 5px rgb(162, 162, 162) inset;
+    float: left;
+    margin-top: 6px;
+    background: linear-gradient(white, #EBEDEC);
+    position: relative;
 }
-.btn1{
-	height: 22px;
-  left: -3px;
-  top: 82px;
+
+.container {
+    background-color: #000;
+    width: 300px;
+    height: 535px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 3px solid #000;
 }
-.btn2{
-height: 38px;
-  left: -3px;
-  top: 130px;
+
+.camera {
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
-.btn3{
-	height: 38px;
-  left: -3px;
-  top:177px;
+
+.subctrl {
+    height: 15px;
+    width: 110px;
+    margin: 0 auto;
 }
-.btn4{
-	height: 38px;
-  right: -3px;
-  top:120px;
+
+.light {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
 }
-.footer{
-bottom: 0;
-width: 48px;
-height: 48px;
-border-radius: 50%;
-margin: 0 auto;
-margin-top: 10px;
-background: linear-gradient(#585858,white,#585858);
-position: relative;
+
+.sound {
+    width: 45px;
+    height: 3px;
+    background-color: black;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 4px 17px;
 }
-.controlBtn{
-bottom: 0;
-width: 42px;
-height: 42px;
-border-radius: 50%;
-margin: 0 auto;
-position: absolute;
-top: 3px;
-background-color: #EBEDEC;
-left: 3px;
+
+.btnbox > div {
+    width: 2px;
+    background-color: #BBB6B6;
+    border: 1px solid #868585;
+    border-width: 2px 0px;
+    position: absolute;
 }
+
+.btn1 {
+    height: 22px;
+    left: -3px;
+    top: 82px;
+}
+
+.btn2 {
+    height: 38px;
+    left: -3px;
+    top: 130px;
+}
+
+.btn3 {
+    height: 38px;
+    left: -3px;
+    top: 177px;
+}
+
+.btn4 {
+    height: 38px;
+    right: -3px;
+    top: 120px;
+}
+
+.footer {
+    bottom: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: linear-gradient(#585858, white, #585858);
+    position: relative;
+}
+
+.controlBtn {
+    bottom: 0;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 3px;
+    background-color: #EBEDEC;
+    left: 3px;
+}
+
 
 /** for layout **/
 
-.layoutIphone .container{
-  background-color:white;
-  overflow: auto;
-  width:300px;
+.layoutIphone .container {
+    background-color: white;
+    overflow: auto;
+    width: 300px;
 }
-.layoutIphone .layout{
-  overflow:hidden;
+
+.layoutIphone .layout {
+    overflow: hidden;
 }
 
 .layoutIphone header .header-title {
@@ -119,24 +132,25 @@ left: 3px;
     padding: 0;
     text-align: center;
 }
-.layoutIphone header nav.header-nav ul{
-  width: auto;
+
+.layoutIphone header nav.header-nav ul {
+    width: auto;
 }
 
-
-.layoutIphone header nav.header-nav ul li{
-  padding:5px 20px;
-  font-size:14px;
+.layoutIphone header nav.header-nav ul li {
+    padding: 5px 20px;
+    font-size: 14px;
 }
 
+.layoutIphone section {
+    width: 100%;
+}
 
-.layoutIphone section{
-  width:100%;
+.layoutIphone section article {
+    width: 90%;
+    margin: 0 20px;
 }
-.layoutIphone section article{
-  width:90%;
-  margin:0 20px;
-}
-.layoutIphone header nav .dropdown-list{
-top: 30px;
+
+.layoutIphone header nav .dropdown-list {
+    top: 30px;
 }

@@ -9,7 +9,7 @@ h5,
 h6,
 small {
     letter-spacing: 1px;
-    font-family: 'Noto Sans TC', sans-serif, monospace, cursive;
+    font-family: 'Noto Sans TC', 'Fredoka One', sans-serif, monospace, cursive;
 }
 
 ul {
@@ -19,7 +19,18 @@ ul {
 }
 
 h3 {
-    margn: 0;
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.row {
+    margin: 30px 0 50px;
 }
 
 .jumbotron {
@@ -29,30 +40,57 @@ h3 {
     height: 500px;
     padding-top: 170px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .container {
-    width: 80%;
+    width: 85%;
 }
-
-
-/*.jumbotron {
-    padding: 3px;
-    -webkit-border-image: url("../images/border.png") 30 round;
-    -o-border-image: url("../images/border.png") 30 round;
-    border-image: url("../images/border.png") 30 round;
-    border-bottom: 10px solid transparent;
-}
-*/
 
 .subjectBox .glyphicon {
-    font-size: 54px;
+    font-size: 48px;
+}
+
+.thumbnail > img {
+    height: 200px;
 }
 
 footer {
     background-color: #333;
-    color: #666;
+    color: #585858;
     padding: 20px 0;
 }
 
-.connectIcons img {}
+footer .glyphicon {
+    margin-right: 5px;
+}
+
+footer .subject {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ddd;
+}
+
+footer .icons {
+    margin: 10px 0;
+    color: #666;
+}
+
+footer .icons .fa-stack {
+    line-height: 1.8em;
+}
+
+.linkList li {
+    border-bottom: 1px solid #585858;
+    padding: 10px 0 5px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    [class*="col-"] {
+        padding-top: 15px;
+    }
+    .jumbotron {
+        padding: unset;
+    }
+}

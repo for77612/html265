@@ -7,11 +7,10 @@
     <meta name="renderer" content="webkit">
     <title>LALAYUAN's RESUME</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
+    <script src="../assets/js/jquery.1.12.4.min.js"></script>
+    <script src="../assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/font-awesome-4.6.3/css/font-awesome.min.css">
     <!-- load navbar -->
     <script src="../assets/js/load_template.js"></script>
     <link rel="stylesheet" href="../assets/css/resume.css">
@@ -47,28 +46,36 @@
                     </div>
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-2 timer">1990</div>
+                            <div class="col-md-2 timer">1990
+                                <div class="timerline"></div>
+                            </div>
                             <div class="col-md-10 timerObj">
                                 <div>
                                     <h4>Lorem ipsum dolor sit amet</h4>
                                     <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sed</small>
                                 </div>
                             </div>
-                            <div class="col-md-2 timer">2005</div>
+                            <div class="col-md-2 timer">2005
+                                <div class="timerline"></div>
+                            </div>
                             <div class="col-md-10 timerObj">
                                 <div>
                                     <h4>Lorem ipsum dolor sit amet</h4>
-                                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sedLorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sed</small>
+                                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sed</small>
                                 </div>
                             </div>
-                            <div class="col-md-2 timer">2010</div>
+                            <div class="col-md-2 timer">2010
+                                <div class="timerline"></div>
+                            </div>
                             <div class="col-md-10 timerObj">
                                 <div>
                                     <h4>Lorem ipsum dolor sit amet</h4>
-                                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sedLorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sed</small>
+                                    <small>Lorem ipsum dolor sit amet, quos minus dicta cupiditate commodi animi sedLorem ipsum dolor sit amet, consectetur adipisicing elit. Odio quos minus dicta cupiditate commodi animi sed</small>
                                 </div>
                             </div>
-                            <div class="col-md-2 timer">12015</div>
+                            <div class="col-md-2 timer">2015
+                                <div class="timerline"></div>
+                            </div>
                             <div class="col-md-10 timerObj">
                                 <div>
                                     <h4>Lorem ipsum dolor sit amet</h4>
@@ -78,15 +85,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row experience
+">
                     <div class="col-md-12">
                         <h3>// EXPERIENCE</h3>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 timerBox">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 timer">
                                 <h4>Google</h4>
-                                <small>2013-2014</small>
+                                <small>2013 - 2014</small>
                             </div>
                             <div class="col-md-9">
                                 <h4>Totam nihil incidunt enim praesentium</h4>
@@ -94,11 +102,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 timerBox">
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 timer">
                                 <h4>Google</h4>
-                                <small>2013-2014</small>
+                                <small>2013 - 2014</small>
                             </div>
                             <div class="col-md-9">
                                 <h4>Totam nihil incidunt enim praesentium</h4>
@@ -112,39 +120,81 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>// CONTACT US</h3>
-                        <ul>
-                            <li class="icon"><i class="material-icons">phone</i><span>123-456-789</span></li>
-                            <li class="icon"><i class="material-icons">mail</i><span>mail@mail.com</span></li>
-                            <li class="icon"><i class="material-icons">favorite</i><span>Twitter</span></li>
-                            <li class="icon"><i class="material-icons">favorite</i><span>Facebook</span></li>
-                            <li class="icon"><i class="material-icons">favorite</i><span>Skype</span></li>
+                        <ul class="contactList">
+                            <li>
+                                <div class="icon"><i class="material-icons">phone</i></div>
+                                <div>
+                                    <p>123-456-789</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="material-icons">mail</i></div>
+                                <div>
+                                    <p>mail@mail.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="material-icons">flight</i></div>
+                                <div>
+                                    <p>Twitter</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="material-icons">filter vintage</i></div>
+                                <div>
+                                    <p>Facebook</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon"><i class="material-icons">cloudy</i></div>
+                                <div>
+                                    <p>Skype</p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-12">
                         <h3>// SKILLS</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JQUERY</li>
-                            <li>JAVA</li>
-                            <li>PHP</li>
+                        <ul class="chartList">
+                            <li class="w75">HTML</li>
+                            <li class="w80">CSS</li>
+                            <li class="w100">JQUERY</li>
+                            <li class="w90">JAVA</li>
+                            <li class="w25">PHP</li>
                         </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <h3>// LANGUAGES</h3>
-                        <div class="row">
-                            <div class="col-md-8">Chiness</div>
-                            <div class="col-md-4"><span style="color:red">★★★★</span>★</div>
-                            <div class="col-md-8">English</div>
-                            <div class="col-md-4"><span style="color:red">★★★</span>★★</div>
+                        <div class="chartline">
+                            <div class="col-xs-3 col-md-3">
+                                <div class="chart-begin">Begining</div>
+                                <div class="chart-perfact">Perfect</div>
+                            </div>
+                            <div class="col-xs-6 col-md-6">
+                                <div class="chart-expect">Expect</div>
+                            </div>
+                            <div class="col-xs-3 col-md-3">
+                                <div class="chart-mange">Mange</div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-12">
+                        <h3>// LANGUAGES</h3>
+                        <div class="row languages
+">
+                            <div>
+                                <div class="col-md-8">Chiness</div>
+                                <div class="col-md-4"><span style="color:#cc6666">★★★★</span>★</div>
+                            </div>
+                            <div>
+                                <div class="col-md-8">English</div>
+                                <div class="col-md-4"><span style="color:#cc6666">★★★</span>★★</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-12 ">
                         <h3>// HOBBIES</h3>
-                        <ul>
-                            <li>Photography</li>
-                            <li>Surfing</li>
-                            <li>Fishing</li>
+                        <ul class="hobbiesList ">
+                            <li><i class="material-icons ">favorite</i>Photography</li>
+                            <li><i class="material-icons ">favorite</i>Surfing</li>
+                            <li><i class="material-icons ">favorite</i>Fishing</li>
                         </ul>
                     </div>
                 </div>
